@@ -1,0 +1,33 @@
+.container{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.container>h4{
+    color: blue;
+    padding-bottom: 20px;
+}
+.container>h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.blogButton{
+    overflow: hidden;
+}
+.blogButton>span{
+    padding-top: 10px;
+    font-size: 15px;
+    display: block;
+    transition: 0.7s;
+}
+.blogButton>span:hover{
+    color: blue;
+    cursor: pointer;
+}
+.blogButton>span{
+    transform: translateX(-93px);
+}
+.blogButton:hover .span{
+    transform: translateX(1px);
+
+}

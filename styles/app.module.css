@@ -1,0 +1,255 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerContainer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.headerlogo{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.headerlogo>img{
+    width: 100%;
+    object-fit: cover;
+}
+.headerSection>ul{
+    display: flex;
+    position: relative;
+}
+
+.headerSection>ul>li{
+    list-style: none;
+    margin-right: 20px;
+}
+.headerIcon{
+    margin-right: 70px;
+    font-size: 35px;
+    text-align: end;
+}
+.headerEndLanguage>ul {
+    display: flex;
+}
+.drbBlog {
+    position: relative;
+    cursor: pointer;
+}
+
+.drbContent {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.drbContent ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.drbContent li {
+    padding: 10px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.drbContent li:last-child {
+    border-bottom: none;
+}
+
+.drbContent li:hover {
+    background-color: #f0f0f0;
+}
+
+.drbList {
+    position: absolute;
+    top: 15px;
+    left: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.drbList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.drbList li {
+    padding: 10px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.drbList li:last-child {
+    border-bottom: none;
+}
+
+.drbList li:hover {
+    background-color: #f0f0f0;
+}
+.headerEndLanguage>ul>li{
+    margin-right: 20px;
+    list-style: none;
+    width: 70px;
+    height: 25px;
+    padding-top: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.71);
+    border-radius: 20px;
+    text-align: center;
+}
+.headerEndLanguage>ul>li:hover .drb{
+    display: block;
+    transition: 0.5s;
+}
+.lang{
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.lang:hover{
+    background: blue;
+}
+.drb{
+    padding-top: 20px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.blogList{
+    list-style: none;
+   text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.drb>ul>li{
+    padding-bottom: 4px;
+    list-style: none;
+    cursor: pointer;
+}
+.drb>ul>li:hover{
+    color: blue;
+}
+.drb>ul{
+    padding: 10px 13px;
+    background: white;
+}
+/* footer start*/
+.footer{
+}
+.footerContainer{
+    width: 100%;
+    height: 400px;
+    background: rgb(0, 33, 71);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 96px;
+}
+.footerLogo{
+    padding-left: 20px;
+}
+.footerImg{
+    padding-bottom: 20px;
+}
+.pagesSection>h4{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+.pagesSection>ul>li{
+    list-style: none;
+    padding-bottom: 5px;
+    color: white;
+}
+.footerText>p{
+    color: white;
+    line-height: 25px;
+}
+.pagesLogo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.pagesLogo>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.imgColor{
+    position: absolute;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    cursor: pointer;
+    transition: 1s;
+}
+.imgColor:hover{
+    background: #000000a2;
+}
+.pagesSectionLogo{
+   display: flex;
+}
+.pagesText>p{
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    border-bottom: 2px solid colourless;
+}
+.pagesText:hover>p{
+    color: orange;
+    border-bottom:2px solid orange ;
+}
+.autor{
+    width: 100%;
+    height: 120px;
+    background: #010134;
+}
+.autorText{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.autorItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerItem{
+    width: 70px;
+    height: 70px;
+
+}
+.footerItem>img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    object-fit: cover;
+}
+.footerItemText>p{
+    color: white;
+    margin-left: 14px;
+}
+.jamanakavorFoot{
+    width: 100%;
+    height: 200px;
+}

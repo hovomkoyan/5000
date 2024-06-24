@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section .slick-dots{
+    bottom: 50%!important;
+    display: flex !important;
+    flex-direction: column;
+
+    align-items: flex-end;
+
+}
+.section .slick-dots li button:before{
+    color: white!important;
+
+    font-size: 12px!important;
+}
+.section .slick-dots li{
+}
+.section .slick-dots li button{
+    width: 30px!important;
+    height: 30px!important;
+}
+.section .slick-dots li button:before {
+    opacity: 0.8;
+}
+.section .slick-dots li.slick-active button:before{
+    opacity: 1!important;
+}
+
+.slick-prev, .slick-next {
+    background: black !important;
+    border-radius: 50%;
+    color: white !important;
+}

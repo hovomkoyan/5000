@@ -1,0 +1,34 @@
+.button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border:1px solid black;
+    display: flex;
+    overflow: hidden;
+}
+.button>span{
+    display: block;
+    transition: 1s;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button .animate1{
+    transform: translateX(-50px);
+}
+.button:hover .animate1{
+    transform: translateX(-5px);
+}
+.button:hover .animate2{
+    transform: translateX(50px);
+}
+.button.blue{
+    background: darkblue;
+    color: white;
+}
+.button.orange{
+    background: #f66d00;
+    color: #000000;
+}
+.button .animate2{
+    margin-left: 5px;
+}

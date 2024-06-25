@@ -12,8 +12,12 @@
     align-items: center;
 }
 .headerlogo{
-    margin-left: 55px;
-    margin-right: 55px;
+    width: 90px;
+    height: 90px;
+}
+.headerlogo{
+    margin-left: 20px;
+    margin-right: 70px;
 }
 .headerlogo>img{
     width: 100%;
@@ -228,6 +232,15 @@
     color: white;
     text-align: center;
     padding-bottom: 10px;
+}
+.footerImg{
+    width: 90px;
+    height: 90px;
+}
+.footerImg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .autorItem{
     display: flex;

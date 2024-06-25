@@ -7,7 +7,7 @@ const Footer = () => {
             <div className={styles.footerContainer}>
                 <div className={styles.footerLogo}>
                     <div className={styles.footerImg}>
-                        <img src="logo-white.svg"/>
+                        <img src="1.png"/>
                     </div>
                     <div className={styles.footerText}>
                         <p>Welcome to Tourigo, your gateway to</p>

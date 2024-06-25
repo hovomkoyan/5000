@@ -16,7 +16,9 @@ const Header = () => {
         <div className={styles.header}>
             <div className={styles.headerContainer}>
                 <div className={styles.headerlogo}>
-                    <img src="logo-black.svg" alt="chi bacum"/>
+                    <Link href="/" className={styles.headerlogo}>
+                        <img src="1.png" alt="chi bacum"/>
+                    </Link>
                 </div>
                 <div className={styles.headerSection}>
                     <ul>
@@ -54,7 +56,9 @@ const Header = () => {
                         {/*        </div>*/}
                         {/*    )}*/}
                         {/*</li>*/}
-                        <li>Contact</li>
+                        <Link href={`/contact`} className={styles.blogList}>
+                            <li>Contact</li>
+                        </Link>
                     </ul>
                 </div>
             </div>
